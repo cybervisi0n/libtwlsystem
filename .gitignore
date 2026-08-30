@@ -1,0 +1,4 @@
+.cache/
+subprojects/.wraplock
+subprojects/libtwl/
+.fontconfig_cache/

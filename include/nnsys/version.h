@@ -1,0 +1,19 @@
+#ifndef NNSYS_VERSION_H_
+#define NNSYS_VERSION_H_
+
+#define NNSYS_VERSION_MAJOR 2
+#define NNSYS_VERSION_MINOR 2
+#define NNSYS_VERSION_REVISION 0
+#define NNSYS_VERSION_RELEASE 128
+#define NNSYS_VERSION_NUMBER                                                   \
+  (((NNSYS_VERSION_MAJOR) << 24) | ((NNSYS_VERSION_MINOR) << 16) |             \
+   ((NNSYS_VERSION_REVISION) << 8) | ((NNSYS_VERSION_RELEASE) << 0))
+
+#if 0 // for Makefile
+NNSYS_VERSION_MAJOR		= 2
+NNSYS_VERSION_MINOR		= 2
+NNSYS_VERSION_REVISION	= 0
+NNSYS_VERSION_RELEASE	= 128
+#endif
+
+#endif
