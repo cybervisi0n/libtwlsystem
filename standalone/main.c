@@ -2,5 +2,5 @@
 #include <nnsys.h>
 
 void NitroMain() {
-    OS_Printf("Hello NitroSystem\n");
+    OS_Printf("Hello TwlSystem\n");
 }
